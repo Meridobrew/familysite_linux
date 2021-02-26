@@ -53,41 +53,20 @@
 Родственные связи:
 {{ relatif1_id }} {{ relatif2_id }}
 <p>
-    {% if relatif1_id.0 %}
-        <li>{{ relatif1_id.0.role }}: <a href="{% url 'familyroster:detail' relatif1_id.0.id %}">{{ relatif1_id.0.name_first }} {{ relatif1_id.0.patronym }} {{ relatif1_id.0.name_last }} {% if relatif1_id.0.name_maiden %} ({{ relatif1_id.0.name_maiden }}){% endif %}</a></li>
-    {% endif %}
-    {% if relatif1_id.1 %}
-        <li>{{ relatif1_id.1.role }}: <a href="{% url 'familyroster:detail' relatif1_id.1.id %}">{{ relatif1_id.1.name_first }} {{ relatif1_id.1.patronym }} {{ relatif1_id.1.name_last }} {% if relatif1_id.1.name_maiden %} ({{ relatif1_id.1.name_maiden }}){% endif %}</a></li>
-    {% endif %}
-    {% if relatif1_id.2 %}
-        <li>{{ relatif1_id.2.role }}: <a href="{% url 'familyroster:detail' relatif1_id.2.id %}">{{ relatif1_id.2.name_first }} {{ relatif1_id.2.patronym }} {{ relatif1_id.2.name_last }} {% if relatif1_id.2.name_maiden %} ({{ relatif1_id.2.name_maiden }}){% endif %}</a></li>
-    {% endif %}
-    {% if relatif1_id.3 %}
-        <li>{{ relatif1_id.3.role }}: <a href="{% url 'familyroster:detail' relatif1_id.3.id %}">{{ relatif1_id.3.name_first }} {{ relatif1_id.3.patronym }} {{ relatif1_id.3.name_last }} {% if relatif1_id.3.name_maiden %} ({{ relatif1_id.3.name_maiden }}){% endif %}</a></li>
-    {% endif %}
-    {% if relatif1_id.4 %}
-        <li>{{ relatif1_id.4.role }}: <a href="{% url 'familyroster:detail' relatif1_id.4.id %}">{{ relatif1_id.4.name_first }} {{ relatif1_id.4.patronym }} {{ relatif1_id.4.name_last }} {% if relatif1_id.4.name_maiden %} ({{ relatif1_id.4.name_maiden }}){% endif %}</a></li>
-    {% endif %}
-    {% if relatif1_id.5 %}
-        <li>{{ relatif1_id.5.role }}: <a href="{% url 'familyroster:detail' relatif1_id.5.id %}">{{ relatif1_id.5.name_first }} {{ relatif1_id.5.patronym }} {{ relatif1_id.5.name_last }} {% if relatif1_id.5.name_maiden %} ({{ relatif1_id.5.name_maiden }}){% endif %}</a></li>
-    {% endif %}
-    {% if relatif2_id.0 %}
-        <li>{{ relatif2_id.0.role }}: <a href="{% url 'familyroster:detail' relatif2_id.0.id %}">{{ relatif2_id.0.name_first }} {{ relatif2_id.0.patronym }} {{ relatif2_id.0.name_last }} {% if relatif2_id.0.name_maiden %} ({{ relatif2_id.0.name_maiden }}){% endif %}</a></li>
-    {% endif %}
-    {% if relatif2_id.1 %}
-        <li>{{ relatif2_id.1.role }}: <a href="{% url 'familyroster:detail' relatif2_id.1.id %}">{{ relatif2_id.1.name_first }} {{ relatif2_id.1.patronym }} {{ relatif2_id.1.name_last }} {% if relatif2_id.1.name_maiden %} ({{ relatif2_id.1.name_maiden }}){% endif %}</a></li>
-    {% endif %}
-    {% if relatif2_id.2 %}
-        <li>{{ relatif2_id.2.role }}: <a href="{% url 'familyroster:detail' relatif2_id.2.id %}">{{ relatif2_id.2.name_first }} {{ relatif2_id.2.patronym }} {{ relatif2_id.2.name_last }} {% if relatif2_id.2.name_maiden %} ({{ relatif2_id.2.name_maiden }}){% endif %}</a></li>
-    {% endif %}
-    {% if relatif2_id.3 %}
-        <li>{{ relatif2_id.3.role }}: <a href="{% url 'familyroster:detail' relatif2_id.3.id %}">{{ relatif2_id.3.name_first }} {{ relatif2_id.3.patronym }} {{ relatif2_id.3.name_last }} {% if relatif2_id.3.name_maiden %} ({{ relatif2_id.3.name_maiden }}){% endif %}</a></li>
-    {% endif %}
-    {% if relatif2_id.4 %}
-        <li>{{ relatif2_id.4.role }}: <a href="{% url 'familyroster:detail' relatif2_id.4.id %}">{{ relatif2_id.4.name_first }} {{ relatif2_id.4.patronym }} {{ relatif2_id.4.name_last }} {% if relatif2_id.4.name_maiden %} ({{ relatif2_id.4.name_maiden }}){% endif %}</a></li>
-    {% endif %}
-    {% if relatif2_id.5 %}
-    <li>{{ relatif2_id.5.role }}: <a href="{% url 'familyroster:detail' relatif2_id.5.id %}">{{ relatif2_id.5.name_first }} {{ relatif2_id.5.patronym }} {{ relatif2_id.5.name_last }} {% if relatif2_id.5.name_maiden %} ({{ relatif2_id.5.name_maiden }}){% endif %}</a></li>
-    {% endif %}
+    {% for obj in relatif1_id %}
+        <li>{{ obj.role }}: <a href="{% url 'familyroster:detail' obj.id %}">{{ obj.name_first }} {{ obj.patronym }} {{ obj.name_last }} {% if obj.name_maiden %} ({{ obj.name_maiden }}){% endif %}</a></li>
+    {% endfor %}
+    {% for obj in relatif2_id %}
+        <li>{{ obj.role }}: <a href="{% url 'familyroster:detail' obj.id %}">{{ obj.name_first }} {{ obj.patronym }} {{ obj.name_last }} {% if obj.name_maiden %} ({{ obj.name_maiden }}){% endif %}</a></li>
+    {% endfor %}
 </p>
+<hr/>
+<p>
+    <a class="btn btn-primary"
+        href="{% url 'familyroster:add_relationship' individual.id %}"
+        role="button">
+        Add Relationship
+        </a>
+</p>
+<hr/>
 {% endblock content %}

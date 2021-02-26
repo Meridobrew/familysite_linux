@@ -1,6 +1,6 @@
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from .models import Individual, Relationship
-from .forms import UpdateForm, CreateForm
+from .forms import UpdateForm, CreateForm, AddRelationshipForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
 from django.db.models import F
@@ -31,6 +31,7 @@ fields_for_forms = {"name_last": "Фамилия", "name_first": "Имя",
               "date_birth": "Дата рождения", "date_death": "Дата смерти",
               "place_birth": "Место рождения", "place_death": "Место смерти",
               "individual_notes": "Примечания"}
+fields_for_forms_relationship = {"relationship_type": "Тип родства", "individual_2_id": "ID присоединяемого человека", "individual_1_role": "Роль выбранного человека", "individual_2_role": "Роль присоединяемого человека"}
 class IndividualCreateView(LoginRequiredMixin, CreateView):
     model = Individual
     form_class = CreateForm
@@ -46,3 +47,9 @@ class IndividualUpdateView(LoginRequiredMixin, UpdateView):
     action = "Update"
     class Meta:
         labels = fields_for_forms
+
+class AddRelationship(CreateView):
+    class Meta:
+        model = Relationship
+        form_class = AddRelationshipForm
+        labels = fields_for_forms_relationship

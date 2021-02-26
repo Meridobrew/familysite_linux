@@ -18,10 +18,15 @@ urlpatterns = [
         view=views.IndividualUpdateView.as_view(),
         name='update'
     ),
-        path(
+    path(
         route='<pk>/delete/',
         view=views.IndividualDeleteView.as_view(),
         name='delete'
+    ),
+    path(
+        route='<pk>/add_relationship/',
+        view=views.AddRelationship.as_view(),
+        name='add_relationship'
     ),
     path(
         route='<pk>/',
