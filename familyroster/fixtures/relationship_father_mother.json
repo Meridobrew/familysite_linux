@@ -1,0 +1,2246 @@
+[ 
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 1,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "1",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "3",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 1,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "1",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "32",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 4,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "4",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "34",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 4,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "4",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "7",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 5,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "5",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "16",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 5,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "5",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "7",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 6,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "6",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "87",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 6,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "6",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "75",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 7,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "7",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "12",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 9,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "9",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "18",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 9,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "9",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "82",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 11,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "11",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "40",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 11,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "11",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "52",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 13,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "13",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "50",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 13,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "13",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "72",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 14,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "14",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "35",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 14,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "14",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "4",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 15,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "15",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "54",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 15,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "15",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "33",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 17,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "17",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "57",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 17,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "17",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "56",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 18,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "18",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "28",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 18,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "18",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "1",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 19,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "19",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "5",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 21,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "21",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "28",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 21,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "21",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "1",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 23,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "23",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "50",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 23,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "23",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "72",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 24,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "24",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "10",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 24,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "24",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "138",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 25,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "25",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "22",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 25,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "25",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "46",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 26,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "26",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "22",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 26,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "26",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "46",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 27,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "27",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "65",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 27,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "27",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "48",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 29,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "29",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "35",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 29,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "29",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "4",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 30,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "30",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "65",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 30,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "30",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "48",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 31,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "31",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "54",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 31,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "31",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "33",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 33,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "33",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "2",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 33,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "33",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "32",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 35,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "35",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "69",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 35,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "35",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "71",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 36,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "36",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "80",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 36,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "36",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "62",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 38,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "38",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "27",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 38,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "38",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "59",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 39,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "39",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "45",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 40,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "40",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "64",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 40,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "40",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "14",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 41,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "41",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "66",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 42,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "42",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "102",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 42,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "42",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "103",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 43,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "43",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "51",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 43,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "43",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "37",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 45,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "45",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "87",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 45,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "45",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "75",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 46,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "46",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "65",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 46,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "46",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "48",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 47,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "47",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "70",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 47,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "47",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "61",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 48,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "48",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "126",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 48,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "48",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "127",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 50,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "50",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "80",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 50,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "50",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "62",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 51,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "51",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "87",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 51,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "51",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "75",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 52,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "52",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "74",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 52,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "52",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "6",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 53,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "53",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "64",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 53,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "53",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "14",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 54,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "54",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "10",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 54,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "54",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "138",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 55,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "55",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "5",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 58,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "58",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "74",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 58,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "58",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "6",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 59,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "59",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "54",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 59,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "59",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "33",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 60,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "60",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "44",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 60,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "60",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "17",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 62,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "62",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "57",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 62,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "62",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "56",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 63,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "63",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "18",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 63,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "63",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "82",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 64,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "64",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "42",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 64,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "64",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "77",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 65,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "65",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "121",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 65,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "65",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "122",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 67,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "67",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "18",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 67,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "67",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "82",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 68,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "68",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "28",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 68,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "68",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "1",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 70,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "70",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "54",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 70,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "70",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "33",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 71,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "71",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "49",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 73,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "73",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "66",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 74,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "74",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "57",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 74,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "74",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "56",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 76,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "76",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "27",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 76,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "76",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "59",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 77,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "77",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "112",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 77,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "77",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "113",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 78,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "78",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "5",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 79,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "79",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "76",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 79,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "79",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "20",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 81,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "81",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "38",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 81,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "81",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "53",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 83,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "83",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "44",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 83,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "83",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "17",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 84,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "84",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "35",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 84,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "84",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "4",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 85,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "85",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "38",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 85,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "85",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "53",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 86,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "86",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "39",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 88,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "88",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "10",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 88,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "88",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "138",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 89,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "89",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "42",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 89,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "89",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "77",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 90,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "90",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "42",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 90,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "90",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "77",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 91,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "91",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "42",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 91,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "91",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "77",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 93,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "93",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "89",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 93,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "93",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "92",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 94,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "94",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "89",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 94,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "94",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "92",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 96,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "96",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "93",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 96,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "96",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "95",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 98,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "98",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "97",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 98,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "98",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "94",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 99,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "99",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "97",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 99,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "99",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "94",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 101,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "101",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "90",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 101,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "101",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "100",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 102,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "102",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "133",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 104,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "104",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "102",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 104,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "104",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "103",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 105,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "105",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "102",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 105,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "105",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "103",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 106,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "106",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "102",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 106,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "106",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "103",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 107,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "107",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "102",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 107,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "107",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "103",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 108,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "108",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "102",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 108,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "108",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "103",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 109,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "109",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "102",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 109,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "109",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "103",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 110,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "110",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "102",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 110,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "110",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "103",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 112,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "112",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "115",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 112,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "112",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "139",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 113,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "113",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "140",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 113,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "113",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "141",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 114,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "114",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "112",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 114,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "114",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "113",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 115,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "115",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "143",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 115,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "115",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "144",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 117,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "117",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "84",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 117,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "117",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "116",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 118,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "118",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "84",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 118,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "118",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "116",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 120,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "120",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "119",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 120,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "120",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "118",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 121,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "121",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "123",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 122,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "122",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "124",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 125,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "125",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "124",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 126,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "126",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "129",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 128,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "128",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "126",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 128,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "128",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "127",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 130,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "130",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "129",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 132,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "132",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "130",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 132,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "132",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "127",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 134,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "134",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "49",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 135,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "135",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "49",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 136,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "136",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "49",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 137,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "137",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "49",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 140,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "140",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "142",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 145,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "145",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "140",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 145,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "145",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "141",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 146,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "146",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "140",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 146,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "146",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "141",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 147,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "147",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "140",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 147,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "147",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "141",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 148,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "148",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "140",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 148,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "148",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "141",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 149,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "149",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "140",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 149,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "149",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "141",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 150,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "150",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "115",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 150,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "150",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "139",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 151,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "151",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "115",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 151,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "151",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "139",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 152,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "152",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "115",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 152,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "152",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "139",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 153,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "153",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "143",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 153,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "153",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "144",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 154,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "154",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "143",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 154,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "154",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "144",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 155,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "155",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "143",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 155,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "155",
+			"individual_1_role" : "Дочь",
+			"individual_2_id" : "144",
+			"individual_2_role" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 156,
+		"fields" : {
+			"relationship_type" : "Child-Father",
+			"individual_1_id" : "156",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "143",
+			"individual_2_role" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Relationship",
+		"pk" : 156,
+		"fields" : {
+			"relationship_type" : "Child-Mother",
+			"individual_1_id" : "156",
+			"individual_1_role" : "Сын",
+			"individual_2_id" : "144",
+			"individual_2_role" : "Мать"
+		}
+	}
+]

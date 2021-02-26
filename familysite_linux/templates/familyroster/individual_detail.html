@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block title %}{{ individual.name_first }} {{ individual.patronym }} {{ individual.name_last }}{% endblock title %}
+
+
+{% block content %}
+<h2>{{ individual.name_first }} {{ individual.patronym }} {{ individual.name_last }}</h2>
+
+{% if individual.name_first %}
+    <p>Имя: {{ individual.name_first }}</p>
+{% endif %}
+{% if individual.patronym %}
+    <p>Отчество: {{ individual.patronym }}</p>
+{% endif %}
+{% if individual.name_last %}
+    <p>Фамилия: {{ individual.name_last }}</p>
+{% endif %}
+{% if individual.name_maiden %}
+    <p>Девичья фамилия: {{ individual.name_maiden }}</p>
+{% endif %}
+{% if individual.gender %}
+    <p>Пол: {{ individual.get_gender_display }}</p>
+{% endif %}
+{% if individual.date_birth %}
+    <p>Дата рождения: {{ individual.date_birth }}</p>
+{% endif %}
+{% if individual.date_death %}
+    <p>Дата смерти: {{ individual.date_death }}</p>
+{% endif %}
+{% if individual.place_birth %}
+    <p>Место рождения: {{ individual.place_birth}}</p>
+{% endif %}
+{% if individual.place_death %}
+    <p>Место смерти: {{ individual.place_death}}</p>
+{% endif %}
+{% if individual.individual_notes %}
+    <p>Дополнительная информация:{{ individual.individual_notes }}</p>
+{% endif %}
+<hr/>
+<p>
+    <a class="btn btn-primary"
+        href="{% url 'familyroster:update' individual.id %}"
+        role="button">
+        Update
+        </a>
+
+    <a class="btn btn-primary"
+        href="{% url 'familyroster:delete' individual.id %}" role="button">
+        Delete
+    </a>
+</p>
+<hr/>
+Родственные связи:
+{{ relatif1_id }} {{ relatif2_id }}
+<p>
+    {% if relatif1_id.0 %}
+        <li>{{ relatif1_id.0.role }}: <a href="{% url 'familyroster:detail' relatif1_id.0.id %}">{{ relatif1_id.0.name_first }} {{ relatif1_id.0.patronym }} {{ relatif1_id.0.name_last }} {% if relatif1_id.0.name_maiden %} ({{ relatif1_id.0.name_maiden }}){% endif %}</a></li>
+    {% endif %}
+    {% if relatif1_id.1 %}
+        <li>{{ relatif1_id.1.role }}: <a href="{% url 'familyroster:detail' relatif1_id.1.id %}">{{ relatif1_id.1.name_first }} {{ relatif1_id.1.patronym }} {{ relatif1_id.1.name_last }} {% if relatif1_id.1.name_maiden %} ({{ relatif1_id.1.name_maiden }}){% endif %}</a></li>
+    {% endif %}
+    {% if relatif1_id.2 %}
+        <li>{{ relatif1_id.2.role }}: <a href="{% url 'familyroster:detail' relatif1_id.2.id %}">{{ relatif1_id.2.name_first }} {{ relatif1_id.2.patronym }} {{ relatif1_id.2.name_last }} {% if relatif1_id.2.name_maiden %} ({{ relatif1_id.2.name_maiden }}){% endif %}</a></li>
+    {% endif %}
+    {% if relatif1_id.3 %}
+        <li>{{ relatif1_id.3.role }}: <a href="{% url 'familyroster:detail' relatif1_id.3.id %}">{{ relatif1_id.3.name_first }} {{ relatif1_id.3.patronym }} {{ relatif1_id.3.name_last }} {% if relatif1_id.3.name_maiden %} ({{ relatif1_id.3.name_maiden }}){% endif %}</a></li>
+    {% endif %}
+    {% if relatif1_id.4 %}
+        <li>{{ relatif1_id.4.role }}: <a href="{% url 'familyroster:detail' relatif1_id.4.id %}">{{ relatif1_id.4.name_first }} {{ relatif1_id.4.patronym }} {{ relatif1_id.4.name_last }} {% if relatif1_id.4.name_maiden %} ({{ relatif1_id.4.name_maiden }}){% endif %}</a></li>
+    {% endif %}
+    {% if relatif1_id.5 %}
+        <li>{{ relatif1_id.5.role }}: <a href="{% url 'familyroster:detail' relatif1_id.5.id %}">{{ relatif1_id.5.name_first }} {{ relatif1_id.5.patronym }} {{ relatif1_id.5.name_last }} {% if relatif1_id.5.name_maiden %} ({{ relatif1_id.5.name_maiden }}){% endif %}</a></li>
+    {% endif %}
+    {% if relatif2_id.0 %}
+        <li>{{ relatif2_id.0.role }}: <a href="{% url 'familyroster:detail' relatif2_id.0.id %}">{{ relatif2_id.0.name_first }} {{ relatif2_id.0.patronym }} {{ relatif2_id.0.name_last }} {% if relatif2_id.0.name_maiden %} ({{ relatif2_id.0.name_maiden }}){% endif %}</a></li>
+    {% endif %}
+    {% if relatif2_id.1 %}
+        <li>{{ relatif2_id.1.role }}: <a href="{% url 'familyroster:detail' relatif2_id.1.id %}">{{ relatif2_id.1.name_first }} {{ relatif2_id.1.patronym }} {{ relatif2_id.1.name_last }} {% if relatif2_id.1.name_maiden %} ({{ relatif2_id.1.name_maiden }}){% endif %}</a></li>
+    {% endif %}
+    {% if relatif2_id.2 %}
+        <li>{{ relatif2_id.2.role }}: <a href="{% url 'familyroster:detail' relatif2_id.2.id %}">{{ relatif2_id.2.name_first }} {{ relatif2_id.2.patronym }} {{ relatif2_id.2.name_last }} {% if relatif2_id.2.name_maiden %} ({{ relatif2_id.2.name_maiden }}){% endif %}</a></li>
+    {% endif %}
+    {% if relatif2_id.3 %}
+        <li>{{ relatif2_id.3.role }}: <a href="{% url 'familyroster:detail' relatif2_id.3.id %}">{{ relatif2_id.3.name_first }} {{ relatif2_id.3.patronym }} {{ relatif2_id.3.name_last }} {% if relatif2_id.3.name_maiden %} ({{ relatif2_id.3.name_maiden }}){% endif %}</a></li>
+    {% endif %}
+    {% if relatif2_id.4 %}
+        <li>{{ relatif2_id.4.role }}: <a href="{% url 'familyroster:detail' relatif2_id.4.id %}">{{ relatif2_id.4.name_first }} {{ relatif2_id.4.patronym }} {{ relatif2_id.4.name_last }} {% if relatif2_id.4.name_maiden %} ({{ relatif2_id.4.name_maiden }}){% endif %}</a></li>
+    {% endif %}
+    {% if relatif2_id.5 %}
+    <li>{{ relatif2_id.5.role }}: <a href="{% url 'familyroster:detail' relatif2_id.5.id %}">{{ relatif2_id.5.name_first }} {{ relatif2_id.5.patronym }} {{ relatif2_id.5.name_last }} {% if relatif2_id.5.name_maiden %} ({{ relatif2_id.5.name_maiden }}){% endif %}</a></li>
+    {% endif %}
+</p>
+{% endblock content %}

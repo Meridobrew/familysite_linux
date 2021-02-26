@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block title %}{% if view.action == "Add" %}Добавление человека{% endif %}
+{% if view.action == "Update" %}Изменение человека{% endif %}{% endblock title %}
+
+{% block content %}
+{% with action=view.action|default:"Add" %}
+{% if action == "Add" %}
+<h1>Добавление человека</h1>
+{% elif action == "Update" %}
+<h1>Изменение данных</h1>
+{% endif %}
+<form method="post" action=".">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <button type="submit" class="btn btn-primary">{{ action }}</button>
+</form>
+{% endwith %}
+{% endblock %}

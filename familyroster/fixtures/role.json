@@ -1,0 +1,100 @@
+[ 
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 1,
+		"fields" : {
+			"role_name" : "Отец"
+		}
+	},
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 2,
+		"fields" : {
+			"role_name" : "Сын"
+		}
+	},
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 3,
+		"fields" : {
+			"role_name" : "Дочь"
+		}
+	},
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 4,
+		"fields" : {
+			"role_name" : "Мать"
+		}
+	},
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 5,
+		"fields" : {
+			"role_name" : "Жена"
+		}
+	},
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 6,
+		"fields" : {
+			"role_name" : "Муж"
+		}
+	},
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 7,
+		"fields" : {
+			"role_name" : "Брат"
+		}
+	},
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 8,
+		"fields" : {
+			"role_name" : "Сестра"
+		}
+	},
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 9,
+		"fields" : {
+			"role_name" : "Бабушка"
+		}
+	},
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 10,
+		"fields" : {
+			"role_name" : "Дедушка"
+		}
+	},
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 11,
+		"fields" : {
+			"role_name" : "Внук"
+		}
+	},
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 12,
+		"fields" : {
+			"role_name" : "Внучка"
+		}
+	},
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 13,
+		"fields" : {
+			"role_name" : "Бывший муж"
+		}
+	},
+	{ 
+		"model" : "familyroster.Role",
+		"pk" : 14,
+		"fields" : {
+			"role_name" : "Бывшая жена"
+		}
+	}
+]

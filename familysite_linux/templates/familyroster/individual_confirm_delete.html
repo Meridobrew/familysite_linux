@@ -1,0 +1,4 @@
+<form method="post">{% csrf_token %}
+    <p>Вы действительно хотите удалить эту запись?</p>
+    <p>"{{ individual.name_first }} {{ individual.patronym }}  {{individual.name_last }}"</p>
+    <input type="submit" value="Confirm"> <a href="{% url 'familyroster:detail' individual.id %}">Cancel</form>

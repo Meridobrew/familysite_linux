@@ -1,0 +1,1825 @@
+[ 
+	{ 
+		"model": "familyroster.individual",
+		"pk": 1,
+		"fields": {
+			"gedcom_id": "@I1@",
+			"name_last": "Захарова",
+			"name_first": "Клавдия",
+			"patronym": "Павловна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 2,
+		"fields": {
+			"gedcom_id": "@I2@",
+			"name_last": "Кожевников",
+			"name_first": "Василий",
+			"gender": "M",
+			"individual_notes": "Георгиевсикие кресты<br />1 ОКП, ГК 3 ст. № 12981, ГК 4 ст. № 24173"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 3,
+		"fields": {
+			"gedcom_id": "@I3@",
+			"name_last": "!",
+			"name_first": "Павел",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 4,
+		"fields": {
+			"gedcom_id": "@I4@",
+			"name_last": "Параница",
+			"name_first": "Анна",
+			"patronym": "Архиповна",
+			"name_maiden": "Шевченко",
+			"gender": "F",
+			"date_birth": "16 JUL 1922",
+			"place_birth": "Украина, Винница, Липовецкий р-н, с Петривка"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 5,
+		"fields": {
+			"gedcom_id": "@I5@",
+			"name_last": "Яницкий",
+			"name_first": "Владимир",
+			"patronym": "Никитович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 6,
+		"fields": {
+			"gedcom_id": "@I6@",
+			"name_last": "Сараева",
+			"name_first": "Любовь",
+			"patronym": "Степановна",
+			"gender": "F",
+			"date_birth": "25 OCT 1954",
+			"place_birth": "Россия, Алтайский край, Первомайский, Тополиное, с"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 7,
+		"fields": {
+			"gedcom_id": "@I7@",
+			"name_last": "Шевченко",
+			"name_first": "Мария",
+			"patronym": "Остаповна",
+			"name_maiden": "Шевчук",
+			"gender": "F",
+			"date_birth": "1896"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 8,
+		"fields": {
+			"gedcom_id": "@I8@",
+			"name_last": "Александрова",
+			"name_first": "Вера",
+			"patronym": "Пименовна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 9,
+		"fields": {
+			"gedcom_id": "@I9@",
+			"name_last": "Захарова",
+			"name_first": "Галина",
+			"patronym": "Андреевна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 10,
+		"fields": {
+			"gedcom_id": "@I10@",
+			"name_last": "Александров",
+			"name_first": "Семён",
+			"patronym": "Иванович",
+			"gender": "M",
+			"individual_notes": "<p>Козак</p>"
+		}
+	},
+	{ 
+		"model": "familyroster.individual","pk": 11,
+		"fields": {
+			"gedcom_id": "@I11@",
+			"name_last": "Удот",
+			"name_first": "Валерия",
+			"patronym": "Юрьевна",
+			"gender": "F",
+			"date_birth": "2 APR 2010"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 12,
+		"fields": {
+			"gedcom_id": "@I12@",
+			"name_last": "Шевчук",
+			"name_first": "Остап",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 13,
+		"fields": {
+			"gedcom_id": "@I13@",
+			"name_last": "Блинов",
+			"name_first": "Даниил",
+			"patronym": "Викторович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 14,
+		"fields": {
+			"gedcom_id": "@I14@",
+			"name_last": "Удот",
+			"name_first": "Клавдия",
+			"patronym": "Ивановна",
+			"name_maiden": "Параница",
+			"gender": "F",
+			"date_birth": "MAR 1950",
+			"place_birth": "Украина, Кировоград, Германовка с"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 15,
+		"fields": {
+			"gedcom_id": "@I15@",
+			"name_last": "Александров",
+			"name_first": "Геннадий",
+			"patronym": "Григорьевич",
+			"gender": "M",
+			"date_birth": "20 DEC 1938"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 16,
+		"fields": {
+			"gedcom_id": "@I16@",
+			"name_last": "Яницкий",
+			"name_first": "Никита",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 17,
+		"fields": {
+			"gedcom_id": "@I17@",
+			"name_last": "Маслова",
+			"name_first": "Людмила",
+			"patronym": "Яковлевна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 18,
+		"fields": {
+			"gedcom_id": "@I18@",
+			"name_last": "Захаров",
+			"name_first": "Михаил",
+			"patronym": "Андреевич",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 19,
+		"fields": {
+			"gedcom_id": "@I19@",
+			"name_last": "Яницкий",
+			"name_first": "Анатолий",
+			"patronym": "Владимирович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 20,
+		"fields": {
+			"gedcom_id": "@I20@",
+			"name_last": "Хаустова",
+			"name_first": "Людмила",
+			"patronym": "Станиславовна",
+			"name_maiden": "Козловская",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 21,
+		"fields": {
+			"gedcom_id": "@I21@",
+			"name_last": "Захарова",
+			"name_first": "Мария",
+			"patronym": "Андреевна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 22,
+		"fields": {
+			"gedcom_id": "@I22@",
+			"name_last": "Панов",
+			"name_first": "Александр",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 23,
+		"fields": {
+			"gedcom_id": "@I23@",
+			"name_last": "Блинов",
+			"name_first": "Денис",
+			"patronym": "Викторович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 24,
+		"fields": {
+			"gedcom_id": "@I24@",
+			"name_last": "Александрова",
+			"name_first": "Анна",
+			"patronym": "Семёновна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 25,
+		"fields": {
+			"gedcom_id": "@I25@",
+			"name_last": "Панова",
+			"name_first": "Светлана",
+			"patronym": "Александрова",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 26,
+		"fields": {
+			"gedcom_id": "@I26@",
+			"name_last": "Панов",
+			"name_first": "Сергей",
+			"patronym": "Александрович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 27,
+		"fields": {
+			"gedcom_id": "@I27@",
+			"name_last": "Хаустов",
+			"name_first": "Анатолий",
+			"patronym": "Петрович",
+			"gender": "M",
+			"date_birth": "22 MAR 1943",
+			"place_birth": "Россия, Воронежская область, Грибановский район, Листопадовка"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 28,
+		"fields": {
+			"gedcom_id": "@I28@",
+			"name_last": "Захаров",
+			"name_first": "Андрей",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 29,
+		"fields": {
+			"gedcom_id": "@I29@",
+			"name_last": "Мельник",
+			"name_first": "Вера",
+			"patronym": "Ивановна",
+			"name_maiden": "Параница",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 30,
+		"fields": {
+			"gedcom_id": "@I30@",
+			"name_last": "Хаустов",
+			"name_first": "Пётр",
+			"patronym": "Петрович",
+			"gender": "M",
+			"date_death": "2015"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 31,
+		"fields": {
+			"gedcom_id": "@I31@",
+			"name_last": "Александров",
+			"name_first": "Александр",
+			"patronym": "Григорьевич",
+			"gender": "M",
+			"date_birth": "10 SEP 1936",
+			"place_birth": "Россия, Респ Башкортостан, Баймакский, д. Иткул"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 32,
+		"fields": {
+			"gedcom_id": "@I32@",
+			"name_last": "Кожевникова",
+			"name_first": "Акулина",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 33,
+		"fields": {
+			"gedcom_id": "@I33@",
+			"name_last": "Александрова",
+			"name_first": "Маланья",
+			"patronym": "Васильевна",
+			"name_maiden": "Кожевникова",
+			"gender": "F",
+			"date_birth": "31 JAN 1906"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 34,
+		"fields": {
+			"gedcom_id": "@I34@",
+			"name_last": "Шевченко",
+			"name_first": "Архип",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 35,
+		"fields": {
+			"gedcom_id": "@I35@",
+			"name_last": "Параница",
+			"name_first": "Иван",
+			"patronym": "Данилович",
+			"gender": "M",
+			"date_birth": "1 OCT 1928",
+			"place_birth": "Украина, Ровно, Дубровицкий р-н, с Бережница"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 36,
+		"fields": {
+			"gedcom_id": "@I36@",
+			"name_last": "Блинова",
+			"name_first": "Татьяна",
+			"patronym": "Ивановна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 37,
+		"fields": {
+			"gedcom_id": "@I37@",
+			"name_last": "Ильина",
+			"name_first": "Галина",
+			"gender": "F",
+			"date_birth": "(10 JUL)"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 38,
+		"fields": {
+			"gedcom_id": "@I38@",
+			"name_last": "Хаустов",
+			"name_first": "Олег",
+			"patronym": "Анатольевич",
+			"gender": "M",
+			"date_birth": "3 NOV 1968",
+			"place_birth": "Россия, Липецкая область, Липецк"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 39,
+		"fields": {
+			"gedcom_id": "@I39@",
+			"name_last": "Ожегов",
+			"name_first": "Вадим",
+			"gender": "M",
+			"date_birth": "(31 AUG)"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 40,
+		"fields": {
+			"gedcom_id": "@I40@",
+			"name_last": "Удот",
+			"name_first": "Юрий",
+			"patronym": "Алексеевич",
+			"gender": "M",
+			"date_birth": "22 DEC 1982",
+			"place_birth": "Россия, Респ Коми, г Усинск, Парма"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 41,
+		"fields": {
+			"gedcom_id": "@I41@",
+			"name_last": "Александров",
+			"name_first": "Андрей",
+			"patronym": "Александрович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 42,
+		"fields": {
+			"gedcom_id": "@I42@",
+			"name_last": "Удот",
+			"name_first": "Григорий",
+			"patronym": "Иванович",
+			"gender": "M",
+			"date_birth": "16 FEB 1914",
+			"date_death": "SEP 1992"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 43,
+		"fields": {
+			"gedcom_id": "@I43@",
+			"name_last": "Ильин",
+			"name_first": "Андрей",
+			"patronym": "Анатольевич",
+			"gender": "M",
+			"date_birth": "24 OCT 1984"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 44,
+		"fields": {
+			"gedcom_id": "@I44@",
+			"name_last": "Маслов",
+			"name_first": "Михаил",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 45,
+		"fields": {
+			"gedcom_id": "@I45@",
+			"name_last": "Каховская",
+			"name_first": "Тамара",
+			"gender": "F",
+			"date_birth": "(22 DEC)"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 46,
+		"fields": {
+			"gedcom_id": "@I46@",
+			"name_last": "Панова",
+			"name_first": "Мария",
+			"patronym": "Петровна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 47,
+		"fields": {
+			"gedcom_id": "@I47@",
+			"name_last": "Александров",
+			"name_first": "Анатолий",
+			"patronym": "Владимирович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 48,
+		"fields": {
+			"gedcom_id": "@I48@",
+			"name_last": "Хаустова",
+			"name_first": "Мария",
+			"patronym": "Карповна",
+			"name_maiden": "Метелкина",
+			"gender": "F",
+			"date_birth": "14 NOV 1911",
+			"date_death": "2007"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 49,
+		"fields": {
+			"gedcom_id": "@I49@",
+			"name_last": "Гордичук",
+			"name_first": "Мусий",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 50,
+		"fields": {
+			"gedcom_id": "@I50@",
+			"name_last": "Блинов",
+			"name_first": "Виктор",
+			"patronym": "Иванович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 51,
+		"fields": {
+			"gedcom_id": "@I51@",
+			"name_last": "Ильин",
+			"name_first": "Анатолий",
+			"patronym": "Степанович",
+			"gender": "M",
+			"date_birth": "14 APR 1960"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 52,
+		"fields": {
+			"gedcom_id": "@I52@",
+			"name_last": "Удот",
+			"name_first": "Марина",
+			"patronym": "Геннадьевна",
+			"name_maiden": "Сараева",
+			"gender": "F",
+			"date_birth": "7 NOV 1984",
+			"place_birth": "Россия, Респ Коми, Вуктыл"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 53,
+		"fields": {
+			"gedcom_id": "@I53@",
+			"name_last": "Хаустова",
+			"name_first": "Наталья",
+			"patronym": "Алексеевна",
+			"name_maiden": "Удот",
+			"gender": "F",
+			"date_birth": "19 JUN 1970",
+			"place_birth": "Украина, Кировоград"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 54,
+		"fields": {
+			"gedcom_id": "@I54@",
+			"name_last": "Александров",
+			"name_first": "Григорий",
+			"patronym": "Семёнович",
+			"gender": "M",
+			"date_birth": "26 SEP 1903",
+			"date_death": "9 JUL 1954",
+			"place_birth": "Россия, Челябинская область, Кизильский район, Кизильское"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 55,
+		"fields": {
+			"gedcom_id": "@I55@",
+			"name_last": "Яницкий",
+			"name_first": "Леонид",
+			"patronym": "Владимирович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 56,
+		"fields": {
+			"gedcom_id": "@I56@",
+			"name_last": "Сараева",
+			"name_first": "Мария",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 57,
+		"fields": {
+			"gedcom_id": "@I57@",
+			"name_last": "Сараев",
+			"name_first": "Яков",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 58,
+		"fields": {
+			"gedcom_id": "@I58@",
+			"name_last": "Сараев",
+			"name_first": "Виталий",
+			"patronym": "Геннадьевич",
+			"gender": "M",
+			"date_birth": "28 MAY 1978"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 59,
+		"fields": {
+			"gedcom_id": "@I59@",
+			"name_last": "Хаустова",
+			"name_first": "Зинаида",
+			"patronym": "Григорьевна",
+			"name_maiden": "Александрова",
+			"gender": "F",
+			"date_birth": "13 DEC 1945",
+			"place_birth": "Россия, Челябинская область, Ашинский район, Миньяр"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 60,
+		"fields": {
+			"gedcom_id": "@I60@",
+			"name_last": "Чекалева",
+			"name_first": "Наталья",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 61,
+		"fields": {
+			"gedcom_id": "@I61@",
+			"name_last": "Александрова",
+			"name_first": "Лиада",
+			"patronym": "Трофимовна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 62,
+		"fields": {
+			"gedcom_id": "@I62@",
+			"name_last": "Блинова",
+			"name_first": "Валентина",
+			"patronym": "Яковлевна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 63,
+		"fields": {
+			"gedcom_id": "@I63@",
+			"name_last": "Захаров",
+			"name_first": "Валерий",
+			"patronym": "Андреевич",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 64,
+		"fields": {
+			"gedcom_id": "@I64@",
+			"name_last": "Удот",
+			"name_first": "Алексей",
+			"patronym": "Григорьевич",
+			"gender": "M",
+			"date_birth": "15 AUG 1948",
+			"place_birth": "Украина, Кировоград"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 65,
+		"fields": {
+			"gedcom_id": "@I65@",
+			"name_last": "Хаустов",
+			"name_first": "Пётр",
+			"patronym": "Сергеевич",
+			"gender": "M",
+			"date_birth": "25 SEP 1910",
+			"place_birth": "Макарово, Новохоперский уезд, Воронежская губерния"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 66,
+		"fields": {
+			"gedcom_id": "@I66@",
+			"name_last": "Александрова",
+			"name_first": "Тамара",
+			"patronym": "Никитична",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 67,
+		"fields": {
+			"gedcom_id": "@I67@",
+			"name_last": "Захарова",
+			"name_first": "Алефтина",
+			"patronym": "Андреевна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 68,
+		"fields": {
+			"gedcom_id": "@I68@",
+			"name_last": "Захарова",
+			"name_first": "Анна",
+			"patronym": "Андреевна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 69,
+		"fields": {
+			"gedcom_id": "@I69@",
+			"name_last": "Параница",
+			"name_first": "Данила",
+			"patronym": "Максимович",
+			"gender": "M",
+			"date_birth": "1901",
+			"date_death": "1989",
+			"place_birth": "?????????",
+			"individual_notes": "Неизвестно откуда пришел. С чубами. Возможно казаки. Рассорился с семьей. Два отчества Иосифович и Максимович."
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 70,
+		"fields": {
+			"gedcom_id": "@I70@",
+			"name_last": "Александров",
+			"name_first": "Владимир",
+			"patronym": "Григорьевич",
+			"gender": "M",
+			"date_birth": "1934"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 71,
+		"fields": {
+			"gedcom_id": "@I71@",
+			"name_last": "Параница",
+			"name_first": "Марта",
+			"patronym": "Мусеевна",
+			"name_maiden": "Гордичук",
+			"gender": "F",
+			"date_death": "1989"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 72,
+		"fields": {
+			"gedcom_id": "@I72@",
+			"name_last": "Блинова",
+			"name_first": "Светлана",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 73,
+		"fields": {
+			"gedcom_id": "@I73@",
+			"name_last": "Александров",
+			"name_first": "Олег",
+			"patronym": "Александрович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 74,
+		"fields": {
+			"gedcom_id": "@I74@",
+			"name_last": "Сараев",
+			"name_first": "Геннадий",
+			"patronym": "Яковлевич",
+			"gender": "M",
+			"date_birth": "15 FEB 1954",
+			"place_birth": "Россия, Оренбургская область, Бугурусланский район, Старые Узели"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 75,
+		"fields": {
+			"gedcom_id": "@I75@",
+			"name_last": "Ильина",
+			"name_first": "Елизавета",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 76,
+		"fields": {
+			"gedcom_id": "@I76@",
+			"name_last": "Хаустов",
+			"name_first": "Дмитрий",
+			"patronym": "Анатольевич",
+			"gender": "M",
+			"date_birth": "3 NOV 1968",
+			"place_birth": "Россия, Липецкая область, Липецк"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 77,
+		"fields": {
+			"gedcom_id": "@I77@",
+			"name_last": "Удот",
+			"name_first": "Екатерина",
+			"patronym": "Семёновна",
+			"name_maiden": "Семко",
+			"gender": "F",
+			"date_birth": "30 JAN 1914",
+			"date_death": "JUL 1983",
+			"place_birth": "Россия,  Пензенская область, Пензенский район, Щербов хутор"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 78,
+		"fields": {
+			"gedcom_id": "@I78@",
+			"name_last": "Яницкий",
+			"name_first": "Василий",
+			"patronym": "Владимирович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 79,
+		"fields": {
+			"gedcom_id": "@I79@",
+			"name_last": "Хаустова",
+			"name_first": "Анна",
+			"patronym": "Дмитриевна",
+			"gender": "F",
+			"date_birth": "1 DEC 1993",
+			"place_birth": "Россия, Респ Коми, Усинск"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 80,
+		"fields": {
+			"gedcom_id": "@I80@",
+			"name_last": "Блинов",
+			"name_first": "Иван",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 81,
+		"fields": {
+			"gedcom_id": "@I81@",
+			"name_last": "Хаустов",
+			"name_first": "Владислав",
+			"patronym": "Олегович",
+			"gender": "M",
+			"date_birth": "2 SEP 1994",
+			"place_birth": "Россия, Респ Коми, Усинск"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 82,
+		"fields": {
+			"gedcom_id": "@I82@",
+			"name_last": "Захарова",
+			"name_first": "Лидия",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 83,
+		"fields": {
+			"gedcom_id": "@I83@",
+			"name_last": "Маслова",
+			"name_first": "Татьяна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 84,
+		"fields": {
+			"gedcom_id": "@I84@",
+			"name_last": "Паряница",
+			"name_first": "Николай",
+			"patronym": "Иванович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 85,
+		"fields": {
+			"gedcom_id": "@I85@",
+			"name_last": "Хаустов",
+			"name_first": "Павел",
+			"patronym": "Олегович",
+			"gender": "M",
+			"date_birth": "2 JAN 1992",
+			"place_birth": "Россия, Респ Коми, г Усинск, Парма"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 86,
+		"fields": {
+			"gedcom_id": "@I86@",
+			"name_last": "Ожегов",
+			"name_first": "Денис",
+			"patronym": "Вадимович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 87,
+		"fields": {
+			"gedcom_id": "@I87@",
+			"name_last": "Ильин",
+			"name_first": "Степан",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 88,
+		"fields": {
+			"gedcom_id": "@I88@",
+			"name_last": "Александрова",
+			"name_first": "Марина",
+			"patronym": "Семеновна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 89,
+		"fields": {
+			"gedcom_id": "@I90@",
+			"name_last": "Удод",
+			"name_first": "Евгений",
+			"patronym": "Григорьевич",
+			"gender": "M",
+			"date_birth": "12 DEC 1949"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 90,
+		"fields": {
+			"gedcom_id": "@I91@",
+			"name_last": "Удод",
+			"name_first": "Николай",
+			"patronym": "Григорьевич",
+			"gender": "M",
+			"date_birth": "5 OCT 1945"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 91,
+		"fields": {
+			"gedcom_id": "@I92@",
+			"name_last": "Ергиева",
+			"name_first": "Мария",
+			"patronym": "Григорьевна",
+			"name_maiden": "Удот",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 92,
+		"fields": {
+			"gedcom_id": "@I93@",
+			"name_last": "Удод",
+			"name_first": "Татьяна",
+			"patronym": "Александровна",
+			"gender": "F",
+			"date_birth": "15 MAR 1954"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 93,
+		"fields": {
+			"gedcom_id": "@I94@",
+			"name_last": "Удод",
+			"name_first": "Александр",
+			"patronym": "Евгеньевич",
+			"gender": "M",
+			"date_birth": "22 JUL 1974"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 94,
+		"fields": {
+			"gedcom_id": "@I95@",
+			"name_last": "Мишакина",
+			"name_first": "Екатерина",
+			"patronym": "Евгеньевна",
+			"name_maiden": "Удод",
+			"gender": "F",
+			"date_birth": "26 OCT 1985"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 95,
+		"fields": {
+			"gedcom_id": "@I96@",
+			"name_last": "Удод",
+			"name_first": "Лилия",
+			"patronym": "Игоревна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 96,
+		"fields": {
+			"gedcom_id": "@I97@",
+			"name_last": "Удод",
+			"name_first": "Игорь",
+			"patronym": "Александрович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 97,
+		"fields": {
+			"gedcom_id": "@I98@",
+			"name_last": "Мишакин",
+			"name_first": "Евгений",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 98,
+		"fields": {
+			"gedcom_id": "@I99@",
+			"name_last": "Мишакин",
+			"name_first": "Владимир",
+			"patronym": "Евгеньевич",
+			"gender": "M",
+			"date_birth": "7 NOV 2007"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 99,
+		"fields": {
+			"gedcom_id": "@I100@",
+			"name_last": "Мишакина",
+			"name_first": "Дарья",
+			"patronym": "Евгеньевна",
+			"gender": "F",
+			"date_birth": "12 MAY 2004"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 100,
+		"fields": {
+			"gedcom_id": "@I101@",
+			"name_last": "Удод",
+			"name_first": "Виктория",
+			"patronym": "Николаевна",
+			"gender": "F",
+			"date_birth": "28 JAN 1949"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 101,
+		"fields": {
+			"gedcom_id": "@I102@",
+			"name_last": "Удод",
+			"name_first": "Светлана",
+			"patronym": "Николаевна",
+			"gender": "F",
+			"date_birth": "26 APR 1974"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 102,
+		"fields": {
+			"gedcom_id": "@I103@",
+			"name_last": "Удот",
+			"name_first": "Иван",
+			"patronym": "Михайлович",
+			"gender": "M",
+			"date_birth": "1890",
+			"date_death": "1937"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 103,
+		"fields": {
+			"gedcom_id": "@I104@",
+			"name_last": "Удот",
+			"name_first": "Надежда",
+			"patronym": "Алексеевна",
+			"name_maiden": "Калашникова",
+			"gender": "F",
+			"date_birth": "22 MAR 1892"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 104,
+		"fields": {
+			"gedcom_id": "@I105@",
+			"name_last": "Удот",
+			"name_first": "Александр",
+			"patronym": "Иванович",
+			"gender": "M",
+			"date_birth": "1916",
+			"date_death": "1973"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 105,
+		"fields": {
+			"gedcom_id": "@I106@",
+			"name_last": "Удот",
+			"name_first": "Прохор",
+			"patronym": "Иванович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 106,
+		"fields": {
+			"gedcom_id": "@I107@",
+			"name_last": "Удот",
+			"name_first": "Дарья",
+			"patronym": "Ивановна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 107,
+		"fields": {
+			"gedcom_id": "@I108@",
+			"name_last": "Удот",
+			"name_first": "Матрена",
+			"patronym": "Ивановна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 108,
+		"fields": {
+			"gedcom_id": "@I109@",
+			"name_last": "Удот",
+			"name_first": "Николай",
+			"patronym": "Иванович",
+			"gender": "M",
+			"date_birth": "1921",
+			"date_death": "1943"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 109,
+		"fields": {
+			"gedcom_id": "@I110@",
+			"name_last": "Удот",
+			"name_first": "Петр",
+			"patronym": "Иванович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 110,
+		"fields": {
+			"gedcom_id": "@I111@",
+			"name_last": "Удот",
+			"name_first": "Андрей",
+			"patronym": "Иванович",
+			"gender": "M",
+			"date_birth": "6 DEC 1926"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 111,
+		"fields": {
+			"gedcom_id": "@I112@",
+			"name_last": "Удот",
+			"name_first": "Александра",
+			"patronym": "Евдокимовна",
+			"gender": "F",
+			"date_birth": "25 AUG 1930"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 112,
+		"fields": {
+			"gedcom_id": "@I113@",
+			"name_last": "Семко",
+			"name_first": "Семен",
+			"patronym": "Никифорович",
+			"gender": "M",
+			"date_birth": "17 APR 1882",
+			"place_birth": "Киевская губерния, Звенигородской уезд, Шполянская волость"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 113,
+		"fields": {
+			"gedcom_id": "@I114@",
+			"name_last": "Семко",
+			"name_first": "Мария",
+			"patronym": "Ивановна",
+			"name_maiden": "Совгира",
+			"gender": "F",
+			"date_birth": "25 MAR 1882",
+			"place_birth": "Киевская губерния, Звенигородской уезд, Шполянская волость, с. Терешки"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 114,
+		"fields": {
+			"gedcom_id": "@I115@",
+			"name_last": "Семко",
+			"name_first": "Иван",
+			"patronym": "Семенович",
+			"gender": "M",
+			"date_birth": "9 JUN 1911"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 115,
+		"fields": {
+			"gedcom_id": "@I116@",
+			"name_last": "Семко",
+			"name_first": "Никифор",
+			"patronym": "Никитович",
+			"gender": "M",
+			"date_birth": "1 MAR 1855",
+			"place_birth": "Киевская губерния, Звенигородской уезд, Шполянская волость, с. Ховковка"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 116,
+		"fields": {
+			"gedcom_id": "@I117@",
+			"name_last": "Паряница",
+			"name_first": "Ольга",
+			"patronym": "Ивановна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 117,
+		"fields": {
+			"gedcom_id": "@I118@",
+			"name_last": "Паряница",
+			"name_first": "Андрей",
+			"patronym": "Николаевич",
+			"gender": "M",
+			"date_birth": "10 JAN 1989"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 118,
+		"fields": {
+			"gedcom_id": "@I119@",
+			"name_last": "Потапенко",
+			"name_first": "Людмила",
+			"patronym": "Николаевна",
+			"name_maiden": "Паряница",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 119,
+		"fields": {
+			"gedcom_id": "@I120@",
+			"name_last": "Потапенко",
+			"name_first": "Иван",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 120,
+		"fields": {
+			"gedcom_id": "@I121@",
+			"name_last": "Потапенко",
+			"name_first": "Владимир",
+			"patronym": "Иванович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 121,
+		"fields": {
+			"gedcom_id": "@I122@",
+			"name_last": "Хаустов",
+			"name_first": "Сергей",
+			"patronym": "Яковлевич",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 122,
+		"fields": {
+			"gedcom_id": "@I123@",
+			"name_last": "Хаустова",
+			"name_first": "Акилина",
+			"patronym": "Денисовна",
+			"name_maiden": "Немцова",
+			"gender": "F",
+			"date_birth": "1886"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 123,
+		"fields": {
+			"gedcom_id": "@I124@",
+			"name_last": "Хаустов",
+			"name_first": "Яков",
+			"patronym": "Филлипович",
+			"gender": "M",
+			"place_birth": "Макарово, Новохоперский уезд, Воронежская губерния"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 124,
+		"fields": {
+			"gedcom_id": "@I125@",
+			"name_last": "Немцов",
+			"name_first": "Денис",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 125,
+		"fields": {
+			"gedcom_id": "@I126@",
+			"name_last": "Немцов",
+			"name_first": "Устин",
+			"patronym": "Денисович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual","pk": 126,
+		"fields": {
+			"gedcom_id": "@I127@",
+			"name_last": "Метелкин",
+			"name_first": "Карп",
+			"patronym": "Ефимович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 127,
+		"fields": {
+			"gedcom_id": "@I128@",
+			"name_last": "Метелкина",
+			"name_first": "Марфа",
+			"patronym": "Зотовна",
+			"gender": "F",
+			"date_birth": "10 AUG 1890",
+			"date_death": "23 OCT 1970",
+			"place_birth": "Макарово, Новохоперский уезд, Воронежская губерния",
+			"place_death": "Россия, Воронежская область, Грибановский район, Листопадовка"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 128,
+		"fields": {
+			"gedcom_id": "@I129@",
+			"name_last": "Метелкин",
+			"name_first": "Иван",
+			"patronym": "Карпович",
+			"gender": "M",
+			"date_birth": "1916",
+			"date_death": "18 APR 1943",
+			"place_birth": "Макарово, Новохоперский уезд, Воронежская губерния"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 129,
+		"fields": {
+			"gedcom_id": "@I130@",
+			"name_last": "Метелкин",
+			"name_first": "Ефим",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 130,
+		"fields": {
+			"gedcom_id": "@I131@",
+			"name_last": "Метелкин",
+			"name_first": "Иван",
+			"patronym": "Ефимович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 131,
+		"fields": {
+			"gedcom_id": "@I133@",
+			"name_last": "",
+			"name_first": "",
+			"gender": "U"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 132,
+		"fields": {
+			"gedcom_id": "@I134@",
+			"name_last": "Метелкин",
+			"name_first": "Василий",
+			"patronym": "Иванович",
+			"gender": "M",
+			"date_birth": "1912",
+			"date_death": "24 JUN 1941"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 133,
+		"fields": {
+			"gedcom_id": "@I135@",
+			"name_last": "Удот",
+			"name_first": "Михаил",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 134,
+		"fields": {
+			"gedcom_id": "@I136@",
+			"name_last": "Гордичук",
+			"name_first": "Никита",
+			"patronym": "Мусеевич",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 135,
+		"fields": {
+			"gedcom_id": "@I137@",
+			"name_last": "Гордичук",
+			"name_first": "Николай",
+			"patronym": "Мусеевич",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 136,
+		"fields": {
+			"gedcom_id": "@I138@",
+			"name_last": "Гордичук",
+			"name_first": "Иван",
+			"patronym": "Мусеевич",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 137,
+		"fields": {
+			"gedcom_id": "@I139@",
+			"name_last": "Гордичук",
+			"name_first": "Анна",
+			"patronym": "Мусеевна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 138,
+		"fields": {
+			"gedcom_id": "@I140@",
+			"name_last": "Александрова",
+			"name_first": "Матрена",
+			"patronym": "Федоровна",
+			"gender": "F"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 139,
+		"fields": {
+			"gedcom_id": "@I500001@",
+			"name_last": "Семко",
+			"name_first": "Соломония",
+			"patronym": "Якимова",
+			"gender": "F",
+			"date_birth": "ESTIMATED 1857"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 140,
+		"fields": {
+			"gedcom_id": "@I500002@",
+			"name_last": "Совгира",
+			"name_first": "Иван",
+			"patronym": "Трофимович",
+			"gender": "M",
+			"date_birth": "ABOUT 1831",
+			"place_birth": "?????????"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 141,
+		"fields": {
+			"gedcom_id": "@I500003@",
+			"name_last": "Совгира",
+			"name_first": "Татьяна",
+			"patronym": "Ивановна",
+			"gender": "F",
+			"date_birth": "ABOUT 1849"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 142,
+		"fields": {
+			"gedcom_id": "@I500004@",
+			"name_last": "Совгира",
+			"name_first": "Трофим",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 143,
+		"fields": {
+			"gedcom_id": "@I500005@",
+			"name_last": "Семко",
+			"name_first": "Никита",
+			"patronym": "Никифорович",
+			"gender": "M",
+			"date_birth": "ABOUT 1809"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 144,
+		"fields": {
+			"gedcom_id": "@I500006@",
+			"name_last": "Семко",
+			"name_first": "Татьяна",
+			"patronym": "Петровна",
+			"gender": "F",
+			"date_birth": "ESTIMATED 1814"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 145,
+		"fields": {
+			"gedcom_id": "@I500007@",
+			"name_last": "Совгира",
+			"name_first": "Аристарх",
+			"patronym": "Иванович",
+			"gender": "M"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 146,
+		"fields": {
+			"gedcom_id": "@I500008@",
+			"name_last": "Совгира",
+			"name_first": "Пимен",
+			"patronym": "Иванович",
+			"gender": "M",
+			"date_birth": "ABOUT 1887"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 147,
+		"fields": {
+			"gedcom_id": "@I500009@",
+			"name_last": "Совгира",
+			"name_first": "Елена",
+			"patronym": "Ивановна",
+			"gender": "F",
+			"date_birth": "ESTIMATED 1877"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 148,
+		"fields": {
+			"gedcom_id": "@I500010@",
+			"name_last": "Совгира",
+			"name_first": "Анисия",
+			"gender": "F",
+			"date_birth": "20 DEC 1874"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 149,
+		"fields": {
+			"gedcom_id": "@I500011@",
+			"name_last": "Совгира",
+			"name_first": "Дария",
+			"gender": "F",
+			"date_birth": "ABOUT 1878"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 150,
+		"fields": {
+			"gedcom_id": "@I500012@",
+			"name_last": "Семко",
+			"name_first": "Федор",
+			"patronym": "Никифорович",
+			"gender": "M",
+			"date_birth": "17 SEP 1880",
+			"place_birth": "Киевская губерния, Звенигородской уезд, Шполянская волость, с. Ховковка"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 151,
+		"fields": {
+			"gedcom_id": "@I500013@",
+			"name_last": "Семко",
+			"name_first": "Лукьян",
+			"patronym": "Никифорович",
+			"gender": "M",
+			"date_birth": "7 FEB 1884",
+			"place_birth": "Киевская губерния, Звенигородской уезд, Шполянская волость, с. Ховковка"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 152,
+		"fields": {
+			"gedcom_id": "@I500014@",
+			"name_last": "Семко",
+			"name_first": "Максим",
+			"patronym": "Никифорович",
+			"gender": "M",
+			"date_birth": "21 JAN 1886",
+			"place_birth": "Киевская губерния, Звенигородской уезд, Шполянская волость, с. Ховковка"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 153,
+		"fields": {
+			"gedcom_id": "@I500015@",
+			"name_last": "Семко",
+			"name_first": "Лаврентий",
+			"patronym": "Никитович",
+			"gender": "M",
+			"date_birth": "ABOUT 1843"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 154,
+		"fields": {
+			"gedcom_id": "@I500016@",
+			"name_last": "Семко",
+			"name_first": "Порфирий",
+			"patronym": "Никитович",
+			"gender": "M",
+			"date_birth": "ABOUT 1856"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 155,
+		"fields": {
+			"gedcom_id": "@I500017@",
+			"name_last": "Семко",
+			"name_first": "Ефросиния",
+			"patronym": "Никитовна",
+			"gender": "F",
+			"date_birth": "ABOUT 1845"
+		}
+	},
+	{ 
+		"model": "familyroster.individual",
+		"pk": 156,
+		"fields": {
+			"gedcom_id": "@I500018@",
+			"name_last": "Семко",
+			"name_first": "Киприан",
+			"patronym": "Никитович",
+			"gender": "M",
+			"date_birth": "ABOUT 1839"
+		}
+	}
+]
