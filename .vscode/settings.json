@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "/home/pavel/python/familysite/familysite_linux/venv/bin/python3.9"
+    "python.pythonPath": "/home/pavel/python/familysite/familysite_linux/venv/bin/python3.9",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }

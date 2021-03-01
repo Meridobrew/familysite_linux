@@ -49,7 +49,9 @@ class IndividualUpdateView(LoginRequiredMixin, UpdateView):
         labels = fields_for_forms
 
 class AddRelationship(CreateView):
-    class Meta:
-        model = Relationship
-        form_class = AddRelationshipForm
-        labels = fields_for_forms_relationship
+    model = Relationship
+    form_class = AddRelationshipForm
+    labels = fields_for_forms_relationship
+    #def form_valid(self, form):
+    #    form.instance.creator = self.request.user
+    #    return super().form_valid(form)
