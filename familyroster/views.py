@@ -4,6 +4,7 @@ from .forms import UpdateForm, CreateForm, AddRelationshipForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
 from django.db.models import F
+from django.shortcuts import render
 
 class FamilyListView(ListView):
     model = Individual
@@ -48,10 +49,14 @@ class IndividualUpdateView(LoginRequiredMixin, UpdateView):
     class Meta:
         labels = fields_for_forms
 
-class AddRelationship(CreateView):
-    model = Relationship
+class AddRelationship(CreateView):    
     form_class = AddRelationshipForm
     labels = fields_for_forms_relationship
+    model = Relationship
+    def get(self, *args, **kwargs):
+        #form_class = AddRelationshipForm(pk=kwargs.get("pk"))
+        form = AddRelationshipForm(pk=kwargs.get("pk"))
+        return render(None, 'familyroster/relationship_form.html', {'form': form})
     #def form_valid(self, form):
     #    form.instance.creator = self.request.user
     #    return super().form_valid(form)

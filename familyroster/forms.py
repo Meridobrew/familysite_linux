@@ -1,6 +1,9 @@
 from django import forms
 from django.forms import ModelForm
+from django.http import request
 from .models import Individual, Relationship
+from django.urls import resolve
+from django.shortcuts import render
 fields_for_forms = {"name_last": "Фамилия", "name_first": "Имя",
                     "patronym": "Отчество", "name_maiden": "Девичья фамилия", "gender": "Пол",
                     "date_birth": "Дата рождения", "date_death": "Дата смерти",
@@ -23,8 +26,12 @@ class CreateForm(ModelForm):
         labels = fields_for_forms
 
 class AddRelationshipForm(ModelForm):
-
-    individual_1_id = forms.CharField(initial=Individual.objects.get(Individual_1='15'))
+    def __init__(self, *args, **kwargs):
+        pk = kwargs.pop('pk', None)
+        super(AddRelationshipForm,self).__init__(*args, **kwargs)
+        if pk:
+            self.fields['individual_1_id'].initial = pk
+    individual_1_id = forms.CharField
     class Meta:
         model = Relationship
         fields = list(fields_for_forms_relationship.keys())
