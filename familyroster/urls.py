@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, re_path
 from . import views
 
 app_name = "familyroster"
@@ -14,22 +14,32 @@ urlpatterns = [
         name='add'
     ),
     path(
-        route='<pk>/update/',
+        route='<int:individual_id>/update/',
         view=views.IndividualUpdateView.as_view(),
         name='update'
     ),
     path(
-        route='<pk>/delete/',
+        route='<int:individual_id>/delete/',
         view=views.IndividualDeleteView.as_view(),
         name='delete'
     ),
     path(
-        route='<pk>/add_relationship/',
+        route='<int:individual_id>/add_relationship/',
         view=views.AddRelationship.as_view(),
         name='add_relationship'
     ),
     path(
-        route='<pk>/',
+        route='update_relationship/<int:relationship_id>/',
+        view=views.UpdateRelationship.as_view(),
+        name='update_relationship'
+    ),
+    path(
+        route='delete_relationship/<int:relationship_id>/',
+        view=views.DeleteRelationship.as_view(),
+        name='delete_relationship'
+    ),
+    path(
+        route='<int:individual_id>/',
         view=views.IndividualDetailView.as_view(),
         name='detail'
     ),

@@ -25,8 +25,7 @@ class Individual(models.Model):
     individual_notes = models.TextField(max_length=500, blank=True)
     def get_absolute_url(self):
         """Return absolute URL to the Familyroster Detail page."""
-        return reverse('familyroster:detail',
-            kwargs={"pk": self.pk})
+        return reverse('familyroster:detail', kwargs={"individual_id": self.individual_id})
     def __str__(self): 
         if self.name_maiden:
             return '%s %s %s (%s)' % (self.name_first, self.patronym, self.name_last, self.name_maiden)
@@ -63,6 +62,9 @@ class Relationship(models.Model):
         ('Бывшая жена', 'Бывшая жена'),
         ('Бывшая муж', 'Бывший муж'),
     ]
-    individual_1_role = models.CharField(max_length=200, choices=ROLE_OPTIONS, blank=True)
-    individual_2_role = models.CharField(max_length=200, choices=ROLE_OPTIONS, blank=True)
+    individual_1_role = models.CharField(max_length=200, choices=ROLE_OPTIONS)
+    individual_2_role = models.CharField(max_length=200, choices=ROLE_OPTIONS)
     marriage_date = models.CharField(max_length=200, blank=True)
+    #def get_absolute_url(self):
+    #    """Return absolute URL to the Familyroster Detail page."""
+    #    return reverse('familyroster:update_relationship', kwargs={"relationship_id": self.relationship_id})

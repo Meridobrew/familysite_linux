@@ -51,13 +51,12 @@
 </p>
 <hr/>
 Родственные связи:
-{{ relatif1_id }} {{ relatif2_id }}
+{{ relatif_list }}
 <p>
-    {% for obj in relatif1_id %}
-        <li>{{ obj.role }}: <a href="{% url 'familyroster:detail' obj.id %}">{{ obj.name_first }} {{ obj.patronym }} {{ obj.name_last }} {% if obj.name_maiden %} ({{ obj.name_maiden }}){% endif %}</a></li>
-    {% endfor %}
-    {% for obj in relatif2_id %}
-        <li>{{ obj.role }}: <a href="{% url 'familyroster:detail' obj.id %}">{{ obj.name_first }} {{ obj.patronym }} {{ obj.name_last }} {% if obj.name_maiden %} ({{ obj.name_maiden }}){% endif %}</a></li>
+    {% for obj in relatif_list|dictsort:'role' %}
+        <li>{{ obj.role }}: <a href="{% url 'familyroster:detail' obj.id %}">{{ obj.name_first }} {{ obj.patronym }} {{ obj.name_last }} {% if obj.name_maiden %} ({{ obj.name_maiden }}){% endif %}</a>
+        <a class="btn btn-primary" href="{% url 'familyroster:update_relationship' obj.relationship_id %}" role="button"> Исправить связь</a>
+        <a class="btn btn-primary" href="{% url 'familyroster:delete_relationship' obj.relationship_id %}" role="button"> Удалить связь</a>
     {% endfor %}
 </p>
 <hr/>
