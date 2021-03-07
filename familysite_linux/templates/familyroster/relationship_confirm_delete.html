@@ -1,6 +1,25 @@
-<form method="post">{% csrf_token %}
+
+{% load crispy_forms_tags %}
+<form method="post">{% csrf_token %}{{ form|crispy }}
     <p>Вы действительно хотите удалить запись о том, что
-      {{ individual.relationship_set.all }} {{ individual1.patronym }}  {{individual1.name_last }}"
-      является {{Relationship.individual_1_role}}
-      {{ individual2.name_first }} {{ individual2.patronym }}  {{individual2.name_last }}
-    <input type="submit" value="Confirm"> <a href="{% url 'familyroster:list' %}">Cancel</form>
+        <b>{{ relationship.individual_1_id }}</b> и <b>{{ relationship.individual_2_id }}</b>
+      являются 
+      {% if relationship.individual_1_role == "Брат" and relationship.individual_2_role == "Брат" %} братьями?
+      {% elif relationship.individual_1_role == "Сестра" and relationship.individual_2_role == "Сестра" %} сестрами?
+      {% elif relationship.individual_1_role == "Брат" and relationship.individual_2_role == "Сестра" %} братом и сестрой?
+      {% elif relationship.individual_1_role == "Сестра" and relationship.individual_2_role == "Брат" %} сестрой и братом?
+      {% elif relationship.individual_1_role == "Муж" and relationship.individual_2_role == "Жена" %} мужем и женой?
+      {% elif relationship.individual_1_role == "Жена" and relationship.individual_2_role == "Муж" %} женой и мужем?
+      {% elif relationship.individual_1_role == "Сын" and relationship.individual_2_role == "Отец" %} сыном и отцом?
+      {% elif relationship.individual_1_role == "Сын" and relationship.individual_2_role == "Мать" %} сыном и матерью?
+      {% elif relationship.individual_1_role == "Дочь" and relationship.individual_2_role == "Отец" %} дочью и отцом?
+      {% elif relationship.individual_1_role == "Дочь" and relationship.individual_2_role == "Мать" %} дочью и матерью?
+      {% elif relationship.individual_2_role == "Сын" and relationship.individual_1_role == "Отец" %} отцом и сыном?
+      {% elif relationship.individual_2_role == "Сын" and relationship.individual_1_role == "Мать" %} матерью и сыном?
+      {% elif relationship.individual_2_role == "Дочь" and relationship.individual_1_role == "Отец" %} отцом и дочерью?
+      {% elif relationship.individual_2_role == "Дочь" and relationship.individual_1_role == "Мать" %} матерью и дочерью?
+      {% else %} родственниками ({{relationship.individual_1_role}} и {{relationship.individual_2_role}})?
+      {% endif %}
+      <br>
+    <button type="submit" value="Confirm" class="btn btn-primary">Confirm</button>
+ <a href="{% url 'familyroster:list' %}">Cancel</form>

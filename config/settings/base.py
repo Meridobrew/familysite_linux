@@ -73,7 +73,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "familysite_linux.users.apps.UsersConfig",
-    "familyroster.apps.FamilyrosterConfig",
+    "familysite_linux.familyroster.apps.FamilyrosterConfig",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
